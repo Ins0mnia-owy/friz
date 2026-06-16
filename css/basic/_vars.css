@@ -1,0 +1,14 @@
+:root {
+    --white: #ffffff;
+    --white-blue: #F0F4F7;
+    --light-blue: #B5DEFF;
+    --blue: #85A7D0;
+    --gray-blue: #46566C;
+    --dark-blue: #111621;
+    --dark-blue-op: #111621c0;
+    --light-gray: #AEAEAE;
+    --gray: #3F3F42;
+    --black: #000000;
+    --font-family: 'Advent Pro', sans-serif;
+    --second-family: "Source Sans 3", sans-serif;
+}

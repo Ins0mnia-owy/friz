@@ -1,0 +1,149 @@
+
+
+.main__inner {
+    padding: 30px 0px 0px;
+}
+
+
+.main__up {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+}
+
+.main__slider {
+    max-width: 625px;
+    max-height: 291px;
+    background-color: var(--white);
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0.5px 4px 4px rgba(21, 30, 50, 0.4);
+}
+
+.main__slider-vrem {
+    max-width: 100%;
+}
+
+.main__pluses {
+    width: 453px;
+    max-height: 280px;
+    display: grid;
+    gap: 20px;
+}
+
+.main__plus {
+    max-width: 100%;
+    background-color: #AFC3D9;
+    border-radius: 10px;
+    box-shadow: 2.5px 4px 4px rgba(21, 30, 50, 0.4);
+    padding: 10px 15px 5px;
+}
+
+.main__plus1 {
+    background-color: #AFC3D9;
+}
+
+.main__plus2 {
+    background-color: #C6D7EA;
+}
+
+.main__plus3 {
+    background-color: #DAE6F0;
+}
+
+.main__plus-small {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray);
+    height: 10px;
+}
+
+.main__plus-big {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--dark-blue);
+    margin-top: -5px;
+    justify-self: right;
+}
+
+.big-bold {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.main__down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 33px;
+}
+
+.main__content {
+    display: grid;
+    max-width: 625px;
+    min-height: fit-content;
+    background-color: var(--white);
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0.5px 4px 4px rgba(21, 30, 50, 0.4);
+    text-indent: 10px;
+    line-height: 18px;
+    font-family: var(--second-family);
+    font-size: 15px;
+    gap: 15px;
+}
+
+.main__content-bold {
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+
+
+.main__comm {
+    display: grid;
+    width: 453px;
+    gap: 15px;
+    justify-content: right;
+    padding: 0px 30px;
+    align-self: end;
+}
+
+.main__comm-inner {
+    display: flex;
+    gap: 8px;
+    max-width: 226px;
+    background-color: #C7E1F6;
+    border-radius: 15px;
+    padding: 10px 14px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 7%;
+    color: var(--gray);
+    box-shadow: 2.5px 4px 4px rgba(21, 30, 50, 0.4);
+    align-items: center;
+    justify-self: right;
+    transition: scale .3s;
+
+    &:hover {
+        scale: 1.05;
+    }
+}
+
+.main__comm-inner2 {
+    font-weight: bold;
+    max-width: 255px;
+    background-color: #B5DEFF;
+}
+
+.main__comm-img {
+    width: 29px;
+    height: 29px;
+}
+.main__comm-img2 {
+    width: 23px;
+    height: 23px;
+}

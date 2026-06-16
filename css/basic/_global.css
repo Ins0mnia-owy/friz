@@ -1,0 +1,56 @@
+
+body {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    font-family: var(--font-family);
+    
+    &::selection {
+        background-color: #5ba2ffa2;
+        color: rgb(0, 0, 0);
+    }
+}
+
+
+
+
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    overflow: hidden;
+    background-color: var(--dark-blue-op);
+}
+
+
+
+.container--white {
+    background-color: var(--white-blue);
+    color: var(--black);
+}
+
+.container--white-shadow {
+    background-image: linear-gradient(to bottom, #d6dce0 1%, var(--white-blue));
+}
+
+.container--gray {
+    background-color: var(--gray-blue);
+}
+
+
+
+
+::-webkit-scrollbar {
+    background-color: var(--dark-blue);
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, var(--dark-blue) 1%, #1e2631 50%, var(--dark-blue) );
+    border-radius: 8px;
+}
+
+
+
+a, button, .btn {
+    cursor: pointer;
+}

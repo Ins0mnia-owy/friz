@@ -1,0 +1,26 @@
+
+
+
+
+.footer__links {
+    display: flex;
+    gap: 20px;
+    padding: 20px 50px;
+    font-family: var(--second-family);
+}
+
+.footer__link {
+    color: #e0e0e0;
+
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 15px 15px;
+    color: #cccccc;
+    font-family: var(--second-family);
+}

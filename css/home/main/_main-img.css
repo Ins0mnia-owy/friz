@@ -1,0 +1,23 @@
+
+
+.main-img__inner {
+    background-image: url(../../../img/main\ img.png);
+    height: 437px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.main-img__blue-text {
+    font-size: 128px;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+    color: var(--light-blue);
+}
+
+.main-img__text {
+    font-size: 93px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+}
