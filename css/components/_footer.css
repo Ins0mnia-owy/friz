@@ -1,12 +1,15 @@
 
 
-
+.footer__up {
+    font-family: var(--second-family);
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
 
 .footer__links {
     display: flex;
     gap: 20px;
-    padding: 20px 50px;
-    font-family: var(--second-family);
 }
 
 .footer__link {
@@ -17,10 +20,15 @@
     }
 }
 
+.footer__right {
+    display: flex;
+    gap: 20px;
+}
+
 .footer__bottom {
     display: flex;
     justify-content: space-between;
-    padding: 0px 50px 15px 15px;
+    padding: 0px 20px 15px 15px;
     color: #cccccc;
     font-family: var(--second-family);
 }

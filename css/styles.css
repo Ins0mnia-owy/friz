@@ -16,15 +16,12 @@
 @import '../css/home/main/_main-slider.css';
 @import '../css/home/main/_map.css';
 
+/* О компании */
+
+@import '../css/home/about/_title.css';
+@import '../css/home/about/_about.css';
 
 
 
-@import '../css/home/_main-slider.css';
-@import '../css/home/_hits.css';
-@import '../css/home/_category.css';
-@import '../css/home/_about.css';
-@import '../css/home/_items.css'; 
-@import '../css/home/_bar.css';
-@import '../css/home/_main-img.css';
 
 @import '../css/home/_menu-modal.css';

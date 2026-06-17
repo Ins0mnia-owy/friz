@@ -1,0 +1,11 @@
+
+.title__inner {
+    display: flex;
+    padding: 20px;
+}
+
+.title__text {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 10%;
+}

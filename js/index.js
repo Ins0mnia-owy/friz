@@ -2,26 +2,19 @@ new Swiper('.swiper-container--main', {
     loop: true,
     slidesPerView: 3,
     spaceBetween: 8,
-    pagination: {
-        el: ".swiper-pagination",
-        type: "bullets",
-      },
     navigation: {
         prevEl: '.main-slider__btn-prev',
         nextEl: '.main-slider__btn-next',
     }
 });
 
-new Swiper('.swiper-container--hits', {
+new Swiper('.swiper-container--one', {
     loop: true,
-    slidesPerView: 3,
-    spaceBetween: 8,
-    pagination: {
-        el: ".swiper-pagination",
-        type: "bullets",
-      },
-    navigation: {
-        prevEl: '.hits__btn-prev',
-        nextEl: '.hits__btn-next',
-    }
+    autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true
+    },
+    slidesPerView: 1,
+    spaceBetween: 0,
 });
