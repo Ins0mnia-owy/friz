@@ -32,3 +32,10 @@
     color: #cccccc;
     font-family: var(--second-family);
 }
+
+@media (max-width: 610px) {
+    .footer__up {
+        display: grid;
+        padding: 10px;
+    }
+}

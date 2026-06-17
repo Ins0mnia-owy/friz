@@ -8,6 +8,12 @@ new Swiper('.swiper-container--main', {
     }
 });
 
+new Swiper('.swiper-container--main2', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 8,
+});
+
 new Swiper('.swiper-container--one', {
     loop: true,
     autoplay: {

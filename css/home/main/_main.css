@@ -178,7 +178,30 @@
     }
 
     .main__down {
-        padding: 20px;
+        padding: 30px;
         display: grid;
+    }
+    .main__content {
+        max-width: 100%;
+    }
+    .main__comm {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 610px) {
+    .one-slider__img {
+        margin-top: 0px;
+    }
+    .main__pluses {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .main__plus {
+        max-width: 200px;
     }
 }

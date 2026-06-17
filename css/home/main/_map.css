@@ -59,3 +59,27 @@
     width: 34px;
     height: 34px;
 }
+
+@media (max-width: 610px) {
+    .map__inner {
+        gap: 0px;
+    }
+    .map__big {
+        font-size: 55px; 
+    }
+    .map__text {
+        font-size: 22px;
+    }
+    .map__btn {
+        font-size: 23px;
+        padding: 10px 20px;
+        gap: 10px;
+    }
+    .map__icon {
+        width: 24px;
+        height: 24px;
+    }
+    .map__question {
+        padding: 20px;
+    }
+}
